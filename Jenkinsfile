@@ -10,7 +10,7 @@ pipeline{
 		stage('Checkout'){
 			steps{
 				script{
-					git branch: 'master', url: "${GITHUB_REPO_URL}"
+					git branch: 'main', url: "${GITHUB_REPO_URL}"
 				}
 			}
 		}
