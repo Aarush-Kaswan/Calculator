@@ -19,4 +19,3 @@
         state: started
     - name: Running container
       shell: docker run -it -d --name calculator aarushkaswan/calculator /bin/bash
- #     shell: docker run -it -d --name calculator -v /:/app aarushkaswan/calculator java -jar /calculator.jar
