@@ -9,11 +9,8 @@ public class calculator {
 
         Scanner scanner = new Scanner(System.in);
 
-
-
+	int dummy = scanner.nextInt();
         boolean exit = false;
-
-
 
         System.out.println("Calculator :-");
 
